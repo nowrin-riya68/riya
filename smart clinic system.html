@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Clinic System</title>
+    <style>
+        body {
+            background-color: #020617; /* Dark background */
+            text-align: center;
+            color: white; /* All text white */
+            font-family: 'Poppins', sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 30px;
+            animation: fadeIn 2s ease forwards;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: justify;
+            animation: fadeIn 3s ease forwards;
+        }
+
+        a {
+            color: #00cfff;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            border: 2px solid #00cfff;
+            border-radius: 8px;
+            transition: transform 0.3s, background-color 0.3s;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        a:hover {
+            transform: translateY(-5px);
+            background-color: #00cfff;
+            color: #020617;
+        }
+
+        /* Fade-in animation for heading and paragraph */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Floating animation for links */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Smart Clinic System</h1>
+
+<p>
+The Smart Clinic project is a Java-based hospital management system designed
+to streamline clinic operations. It manages patients, doctors, appointments, 
+and billing efficiently, using object-oriented programming principles like inheritance, 
+encapsulation, and polymorphism. The system allows easy scheduling, record keeping,
+and invoice generation, making clinic management more organized and professional.
+</p>
+
+<!-- ZIP / PDF Link -->
+<p>
+    <a href="smart clinic system.zip" target="_blank">Download Smart Clinic System</a>
+</p>
+
+</body>
+</html>

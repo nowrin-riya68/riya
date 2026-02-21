@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Public News Droid</title>
+    <style>
+        body {
+            background-color: #020617; /* Dark background */
+            text-align: center;
+            color: white; /* White text */
+            font-family: 'Poppins', sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 30px;
+            animation: fadeIn 2s ease forwards;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: justify;
+            animation: fadeIn 3s ease forwards;
+        }
+
+        a {
+            color: #00cfff;
+            text-decoration: none;
+            display: inline-block;
+            margin: 15px;
+            padding: 10px 20px;
+            border: 2px solid #00cfff;
+            border-radius: 8px;
+            transition: transform 0.3s, background-color 0.3s;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        a:hover {
+            transform: translateY(-5px);
+            background-color: #00cfff;
+            color: #020617;
+        }
+
+        /* Fade-in animation for heading and paragraph */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Floating animation for links */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Public News Droid</h1>
+
+<p>
+The Public News Droid project is an Android‑based news aggregation
+application developed to provide users with timely access to public news
+and local updates through an intuitive mobile interface. The project
+documentation and report were created using LaTeX on Overleaf, highlighting 
+the structured formatting, professional layout, and clarity of presentation. 
+Built using Android Studio with a backend database, the app allows users to 
+register securely, authenticate via login, and browse categorized news content,
+including national, local, and topic-specific stories. Administrators play a
+key role in monitoring submissions to ensure the accuracy and relevance of 
+content, while authenticated users can contribute news items to enhance 
+community participation. The system’s design emphasizes responsiveness, ease 
+of navigation, and real-time updates to deliver a reliable and efficient 
+platform for accessing current events.
+</p>
+
+<!-- PDF Links -->
+<p>
+    <a href="latex work.pdf" target="_blank">View the project (PDF)</a>
+    <a href="presentation slide.pdf" target="_blank">View the Overleaf project (PDF)</a>
+    <a href="poster.pdf" target="_blank">View the poster (PDF)</a>
+</p>
+
+</body>
+</html>
